@@ -48,11 +48,11 @@ install(TARGETS mycamera
 list(APPEND CONF_FILES
   MyCameraCamera.conf
   MyCameraCameraTest.conf
-  #MyCameraCameraPhaseOffset.bin
+  MyCameraCameraPhaseOffset.bin
 )
 
 list(APPEND UDEV_FILES
-  #72-MyCamera.rules
+  72-MyCamera.rules
 )
                       
 ### Copy configuration and firmware files to build directory
